@@ -1,6 +1,6 @@
 **License: Apache‑2.0**
 
-> 主仓库 [GitHub](https://github.com/LY-1157799217/mqtt-edge-hub)
+> 主仓库 [GitHub](https://github.com/Ly-FirmwareLab/mqtt-edge-hub)
 > 国内镜像访问：[Gitee](https://gitee.com/LY115LY/mqtt-edge-hub)
 > 两个仓库保持同步更新，国内访问建议使用 Gitee 镜像。
 
@@ -18,7 +18,7 @@
 
 > **📌 该选哪个版本？**
 > - **有树莓派** → 用本版（**Pi Hub 版**）：树莓派当常开中控，小电视只管显示。
-> - **手头没有树莓派** → 用 **无Pi版**：[GitHub](https://github.com/LY-1157799217/Visual-desktop-TV-decoration) ｜ [Gitee](https://gitee.com/LY115LY/Visual-desktop-TV-decoration)。一块 ESP32‑C3 + 一个 USB 充电头，开箱即用。
+> - **手头没有树莓派** → 用 **无Pi版**：[GitHub](https://github.com/Ly-FirmwareLab/Visual-desktop-TV-decoration) ｜ [Gitee](https://gitee.com/LY115LY/Visual-desktop-TV-decoration)。一块 ESP32‑C3 + 一个 USB 充电头，开箱即用。
 >
 > 两版**共用同一套显示端硬件与外壳**，主要区别在"数据从哪来"。详细对照见下方
 > [**📊 与无Pi版的区别**](#-与无pi版的区别)。
@@ -63,7 +63,7 @@
 
 > ⚠️ **本版要两块硬件**：树莓派当常开中控，ESP32‑C3 当显示端，两者缺一不可。
 > **只想桌上摆一块行情屏、不想要额外主机** → 请改用
-> [**无Pi版**](https://github.com/LY-1157799217/Visual-desktop-TV-decoration)（国内 [Gitee 镜像](https://gitee.com/LY115LY/Visual-desktop-TV-decoration)）。
+> [**无Pi版**](https://github.com/Ly-FirmwareLab/Visual-desktop-TV-decoration)（国内 [Gitee 镜像](https://gitee.com/LY115LY/Visual-desktop-TV-decoration)）。
 
 ## 📊 与无Pi版的区别
 
@@ -616,7 +616,7 @@ QoS 1；告警类**不设 retained**（避免重启后重推昨天的涨停）�
 
 ## 姊妹项目
 
-- **无Pi版**（[GitHub](https://github.com/LY-1157799217/Visual-desktop-TV-decoration) ｜ [Gitee](https://gitee.com/LY115LY/Visual-desktop-TV-decoration)）：
+- **无Pi版**（[GitHub](https://github.com/Ly-FirmwareLab/Visual-desktop-TV-decoration) ｜ [Gitee](https://gitee.com/LY115LY/Visual-desktop-TV-decoration)）：
   设备直连上游，不需要任何常开主机。适合没有树莓派、只想桌上摆一块行情屏的人。
 - **Pi Hub 版**（本仓库）：树莓派当中控，带企微提醒与远程控制。
 
